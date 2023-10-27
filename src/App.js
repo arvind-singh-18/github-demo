@@ -1,7 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import LandingPage from './components/LandingPage';
-import Content from './components/Content';
+import logo from "./logo.svg";
+import "./App.css";
+import LandingPage from "./components/LandingPage";
+import Content from "./components/Content";
+import Bottom from "./components/Bottom";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </header>
       <LandingPage />
       <Content />
+      <Bottom />
     </div>
   );
 }

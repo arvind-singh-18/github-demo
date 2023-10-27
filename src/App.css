@@ -44,6 +44,12 @@ section.section2 {
   padding: 2rem;
 }
 
+footer.footer {
+  background-color: cyan;
+  padding: 0.3rem;
+  margin-bottom: 0;
+}
+
 .App-link {
   color: #61dafb;
 }
