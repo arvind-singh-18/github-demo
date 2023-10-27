@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import LandingPage from './components/LandingPage';
+import Content from './components/Content';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <LandingPage />
+      <Content />
     </div>
   );
 }

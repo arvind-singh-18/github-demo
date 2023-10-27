@@ -25,11 +25,23 @@
   padding: 0 2rem;
 }
 
-.section {
-  min-height: 80vh;
+section.section1 {
   background-color: bisque;
   padding: 2rem;
   margin-top: -16px;
+}
+
+section.section2 {
+  background-color: cornsilk;
+  padding: 2rem;
+}
+
+.container__box {
+  border: 5rem solid burlywood;
+}
+
+.container__box div {
+  padding: 2rem;
 }
 
 .App-link {
